@@ -7,7 +7,7 @@ public class Function {
     public final static double PI = Math.PI;
 
     public double getArcCos(double x) {
-        // 如果超出定义域则抛出异常
+        // Throws exception if out of scope
         if (x > 1 || x < -1) {
             throw new IllegalArgumentException("The domain of arccos is [-1,1].");
         } else {
